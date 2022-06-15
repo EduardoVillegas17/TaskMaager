@@ -1,0 +1,30 @@
+body,html{
+    background-color: #fdfdfe;
+    height: 100vh;
+}
+
+h3{
+    text-align: center;
+    color: darkblue;
+}
+
+.container{
+    display: flex;
+}
+
+.list{
+    flex: 3;
+}
+
+.form{
+    flex: 2;
+}
+
+#iImportant{
+    font-size: 32px;
+    cursor: pointer;
+    color: #666;
+}
+#iImportant.far{
+    color: red;
+}
