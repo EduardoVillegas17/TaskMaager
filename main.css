@@ -35,8 +35,8 @@ h3{
     border: 1px solid #3c85d7;
     border-radius: 4px;
     padding: 7px 10px;
-    margin: 0, 20px;
-    color: #fff;
+    margin: 5px 20px;
+    color: rgb(141, 117, 141);
 }
 .task:hover{
     color:#fff;
@@ -57,4 +57,24 @@ h3{
 .task.dates label{
     display: block;
 
+}
+.status-0{
+    border: 2px solid rgb(95, 95, 200);
+    border-left-width: 5px;
+}
+.status-1{
+    border: 2px solid rgb(29, 29, 101);
+    border-left-width: 5px;
+}
+.status-3{
+    border: 2px solid darkred;
+    border-left-width: 5px;
+}
+.status-6{
+    border: 2px solid darkgreen;
+    border-left-width: 5px;
+}
+.status-9{
+    border: 2px solid rgb(90, 81, 81);
+    border-left-width: 5px;
 }

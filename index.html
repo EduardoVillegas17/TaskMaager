@@ -16,6 +16,7 @@
             <section class="list">
                 <h3>Your Pending Task</h3>
                 <button id="btnShowHide" class="btn btn-dark">Show / Hide Panel</button>
+                <button id="btnClear" class="btn btn-sm btn-danger">Clear Tasks</button>
                 <div id="task-list">
                     <div><h3>New Task</h3></div>
                 </div>
@@ -47,10 +48,11 @@
                     
                     <input id="txtLocation" class="form-control" type="text">
                 </div>
+
                 <div class="my-field">
                     <label>Status</label>
-                    
                     <select id="txtStatu" class="form-select">
+                        <option selected hidden value="-1">--- Select ---</option>
                         <option value="0">New</option>
                         <option value="1">In Progress</option>
                         <option value="3">Blocked</option>
